@@ -346,11 +346,13 @@ ul {
 /* --Filter-- */
 
 /* Images */
+.images-box {
+}
 .imag {
   padding-top: 72px;
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
+  gap: 48px 20px;
 }
 
 .card {
