@@ -76,12 +76,15 @@ ul {
 .head {
   border-bottom: 1px solid var(--accent-cornflower-color);
   background-color: var(--whait-color);
-  padding: 25.5px;
 }
 
 .navig {
   display: flex;
   margin-right: 332px;
+  align-items: center;
+}
+.logo-box {
+  margin-right: 76px;
 }
 .logo {
   color: var(--primarybrand-iris-color);
@@ -92,7 +95,6 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   width: 44px;
-  margin-right: 147px;
 }
 .logo-title {
   color: var(--dark-navyblue-color);
@@ -115,6 +117,9 @@ ul {
   width: 261px;
   display: flex;
   gap: 40px;
+}
+.nav-page-item {
+  padding: 24px 0;
 }
 .nav-page-pagination {
   color: var(--dark-navyblue-color);
@@ -151,6 +156,7 @@ ul {
 .hero {
   background-color: var(--dark-navyblue-color);
   padding-bottom: 188px;
+  padding-top: 188px;
 }
 .hero-title {
   color: var(--whait-color);
@@ -159,9 +165,8 @@ ul {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto 48px;
-  padding-top: 188px;
 }
 .hero-title-btn {
   color: var(--whait-color);
@@ -171,6 +176,9 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   width: 177px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 
   display: block;
 
@@ -205,6 +213,7 @@ ul {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .benefits-text {
   line-height: 1.5; /* 150% */
@@ -238,7 +247,7 @@ ul {
 /* section-4 */
 .sectbox {
   background-color: var(--light-cloud-color);
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .subject-foto {
@@ -249,6 +258,10 @@ ul {
 .liimg {
   background-color: var(--whait-color);
   width: 264px;
+  border-radius: 0px 0px 4px 4px;
+}
+.liimg-box {
+  padding: 32px 0;
 }
 .subject-title {
   color: var(--dark-navyblue-color);
@@ -258,15 +271,12 @@ ul {
   text-align: center;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
-  width: 140px;
-  margin: 32px auto 8px;
+  margin-bottom: 8px;
 }
 .subject-text {
   text-align: center;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  width: 145px;
-  margin: 0 auto;
 }
 
 /* Footer */
@@ -278,7 +288,6 @@ ul {
 .container-box {
   display: flex;
   flex-direction: column;
-  gap: 17.5px;
 }
 
 .foot-text {
@@ -297,6 +306,10 @@ ul {
   letter-spacing: 0.03em;
   width: 71px;
 }
+.logo-fut {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /* --Footer-- */
 
 /* P */
@@ -310,13 +323,13 @@ ul {
 
 /* Filter */
 .btn {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+
   gap: 24px;
+  margin-bottom: 72px;
 }
-.filters-box {
-  margin-left: 271px;
-}
+
 .btn-but {
   color: var(--primarybrand-iris-color);
   background-color: var(--light-cloud-color);
@@ -336,7 +349,7 @@ ul {
 .btn-but:focus {
   color: var(--whait-color);
   background-color: var(--pressed-state-ocean-color);
-
+  border: 1px solid transparent;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
@@ -347,17 +360,16 @@ ul {
 /* --Filter-- */
 
 /* Images */
-.images-box {
-}
+
 .imag {
-  padding-top: 72px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  justify-content: space-between;
+  column-gap: 24px;
 }
 .imag-item {
   display: flex;
+  flex-basis: calc((100% - 24px * 2) / 3);
 }
 .card {
   /* img */
@@ -365,9 +377,13 @@ ul {
   background-color: var(--whait-color);
 
   display: flex;
-  padding-bottom: 0px;
+
   flex-direction: column;
-  align-items: flex-start;
+}
+.card-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .card-title {
   /* Banking App Interface Concept */
@@ -377,9 +393,8 @@ ul {
   line-height: 1.2;
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
-  margin-top: 32px;
+
   margin-bottom: 8px;
-  margin-left: 16px;
 }
 .card-text {
   /* App */
@@ -387,6 +402,4 @@ ul {
   line-height: 1.5;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
-  margin-left: 16px;
 }
