@@ -93,6 +93,8 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   display: contents;
+
+  margin-right: 76px;
 }
 .logo-title {
   color: var(--dark-navyblue-color);
@@ -101,7 +103,7 @@ ul {
   line-height: 1.17; /* 116.667% */
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  width: 71px;
+
   margin-right: 76px;
 }
 
@@ -257,9 +259,9 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+
   background-color: var(--whait-color);
-  width: 264px;
+
   border-radius: 0px 0px 4px 4px;
 
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -267,27 +269,28 @@ ul {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .liimg-box {
-  padding-bottom: 32px;
+  padding: 32px 0;
   display: flex;
-  width: 232px;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
 }
 .subject-title {
   color: var(--dark-navyblue-color);
-
+  text-align: center;
   font-size: 20px;
   font-weight: 500;
 
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .subject-text {
   color: var(--text-slate-color);
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* Footer */
