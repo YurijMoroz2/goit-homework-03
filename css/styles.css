@@ -43,7 +43,9 @@ button {
 h1,
 h2,
 h3,
-p {
+h4,
+h5,
+h6 p {
   margin: 0;
 }
 ul {
@@ -76,9 +78,7 @@ ul {
   background-color: var(--whait-color);
   padding: 25.5px;
 }
-.heder {
-  display: flex;
-}
+
 .navig {
   display: flex;
   margin-right: 332px;
@@ -150,7 +150,7 @@ ul {
 /* section-1 */
 .hero {
   background-color: var(--dark-navyblue-color);
-  height: 600px;
+  padding-bottom: 188px;
 }
 .hero-title {
   color: var(--whait-color);
@@ -311,7 +311,7 @@ ul {
 /* Filter */
 .btn {
   display: inline-flex;
-  width: 612px;
+  align-items: flex-start;
   gap: 24px;
 }
 .filters-box {
@@ -328,8 +328,6 @@ ul {
   display: flex;
 
   padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
 
   border-radius: 4px;
   border: 1px solid var(--accent-cornflower-color);
@@ -342,6 +340,9 @@ ul {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
+.btn-item {
+  display: flex;
+}
 
 /* --Filter-- */
 
@@ -352,9 +353,12 @@ ul {
   padding-top: 72px;
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 20px;
+  row-gap: 48px;
+  justify-content: space-between;
 }
-
+.imag-item {
+  display: flex;
+}
 .card {
   /* img */
   border: 1px solid var(--accent-cornflower-color);
