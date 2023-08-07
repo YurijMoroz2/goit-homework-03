@@ -82,7 +82,6 @@ ul {
   display: flex;
   margin-right: 332px;
   align-items: center;
-  padding: 24px 0;
 }
 
 .logo {
@@ -127,6 +126,7 @@ ul {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .nav-page-pagination:hover,
 .nav-page-pagination:focus {
@@ -146,6 +146,7 @@ ul {
 
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .add-page-mailto:hover,
