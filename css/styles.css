@@ -14,8 +14,6 @@
 }
 /* Base styles */
 body {
-  width: 1440px;
-
   font-family: 'Roboto', sans-serif;
   color: var(--text-slate-color);
   background-color: var(--whait-color);
@@ -45,13 +43,15 @@ h2,
 h3,
 h4,
 h5,
-h6 p {
+h6,
+p {
   margin: 0;
 }
 ul {
   margin: 0;
   padding-left: 0;
 }
+
 .container {
   max-width: 1158px;
   margin-left: auto;
@@ -80,7 +80,7 @@ ul {
 
 .navig {
   display: flex;
-  margin-right: 332px;
+
   align-items: center;
 }
 
@@ -92,8 +92,6 @@ ul {
   line-height: 1.17; /* 116.667% */
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  width: 44px;
-  margin-right: 76px;
   display: contents;
 }
 .logo-title {
@@ -111,13 +109,13 @@ ul {
 .heder {
   display: flex;
   align-items: center;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
 .nav-page {
-  width: 261px;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-page-item {
 }
@@ -131,7 +129,6 @@ ul {
 .nav-page-pagination:hover,
 .nav-page-pagination:focus {
   color: var(--pressed-state-ocean-color);
-  text-decoration: underline;
 }
 .gmail {
   font-style: normal;
@@ -235,10 +232,7 @@ ul {
   line-height: 1.11; /* 111.111% */
   text-align: center;
   text-transform: capitalize;
-  width: 323px;
   margin-bottom: 72px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .subject-img {
   display: flex;
@@ -254,30 +248,44 @@ ul {
 }
 
 .subject-foto {
-  padding: 0 0 120px 0;
   display: flex;
   gap: 24px;
 }
 .liimg {
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
   background-color: var(--whait-color);
   width: 264px;
   border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .liimg-box {
-  padding: 32px 0;
+  padding-bottom: 32px;
+  display: flex;
+  width: 232px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 .subject-title {
   color: var(--dark-navyblue-color);
 
   font-size: 20px;
   font-weight: 500;
-  text-align: center;
+
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 .subject-text {
-  text-align: center;
+  color: var(--text-slate-color);
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
@@ -287,8 +295,6 @@ ul {
   background-color: var(--dark-navyblue-color);
 
   padding: 100px 0 100px 0;
-}
-.container-box {
 }
 
 .foot-text {
@@ -305,7 +311,6 @@ ul {
   line-height: 1.17; /* 116.667% */
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  width: 71px;
 }
 .logo-fut {
   margin-bottom: 16px;
@@ -369,22 +374,32 @@ ul {
   column-gap: 24px;
 }
 .imag-item {
-  display: flex;
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 .card {
-  /* img */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
   border: 1px solid var(--accent-cornflower-color);
+
+  /* img */
+
   background-color: var(--whait-color);
 
   display: flex;
-
-  flex-direction: column;
 }
 .card-box {
-  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  padding-bottom: 32px;
 }
 .card-title {
   /* Banking App Interface Concept */
