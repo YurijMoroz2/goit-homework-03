@@ -82,6 +82,7 @@ ul {
   display: flex;
   margin-right: 332px;
   align-items: center;
+  padding: 24px 0;
 }
 
 .logo {
@@ -118,7 +119,6 @@ ul {
   width: 261px;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .nav-page-item {
 }
@@ -135,6 +135,7 @@ ul {
 }
 .gmail {
   font-style: normal;
+  padding: 24px 0;
 }
 .add-page {
   display: flex;
