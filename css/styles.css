@@ -118,9 +118,9 @@ ul {
   width: 261px;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-page-item {
-  padding: 24px 0;
 }
 .nav-page-pagination {
   color: var(--dark-navyblue-color);
