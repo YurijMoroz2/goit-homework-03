@@ -83,6 +83,9 @@ ul {
 
   align-items: center;
 }
+.navig .logo {
+  margin-right: 76px;
+}
 
 .logo {
   color: var(--primarybrand-iris-color);
@@ -92,17 +95,9 @@ ul {
   line-height: 1.17; /* 116.667% */
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  display: contents;
 }
 .logo-title {
   color: var(--dark-navyblue-color);
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  line-height: 1.17; /* 116.667% */
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-
-  margin-right: 76px;
 }
 
 /* Nav */
@@ -306,12 +301,6 @@ ul {
 }
 .logo-title-fut {
   color: var(--light-cloud-color);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17; /* 116.667% */
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 .logo-fut {
   margin-bottom: 16px;
@@ -393,7 +382,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 8px;
+
   align-self: stretch;
 }
 .card-title {
@@ -404,6 +393,8 @@ ul {
   line-height: 1.2;
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
+
+  margin-bottom: 8px;
 }
 .card-text {
   /* App */
