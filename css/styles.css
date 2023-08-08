@@ -93,8 +93,6 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   display: contents;
-
-  margin-right: 76px;
 }
 .logo-title {
   color: var(--dark-navyblue-color);
@@ -383,12 +381,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  border: 1px solid var(--accent-cornflower-color);
-
-  /* img */
-
   background-color: var(--whait-color);
-
   display: flex;
 }
 .card-box {
@@ -411,8 +404,6 @@ ul {
   line-height: 1.2;
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
-
-  margin-bottom: 8px;
 }
 .card-text {
   /* App */
